@@ -13,6 +13,6 @@ The Generative AI make new content such as text, image, audio, etc based on pre-
   <img width="809" alt="image" src="https://github.com/khkwon01/AI-LLM/assets/8789421/bc588393-a422-4894-8803-2d994c089cfc">     
   - Transformer : Cross-attention + Self-attention (parallel support) <--> recurrent architecture (sequential support)
     - encoder: identify valuable features from input text --> embedding: generate a meaningful representation of that text.
-    - decoder: make an output using embedding resulting from encoder.
+    - decoder: make an output using embedding resulting from encoder. (chatgpt only use this)
   - Prompt Engineering: provide input data for a better understanding of LLM    
   - Fine tuning: apply the specific data like text-classification based on pre-training data    
