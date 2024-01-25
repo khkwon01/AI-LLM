@@ -5,7 +5,14 @@ The Generative AI make new content such as text, image, audio, etc based on pre-
 - The difference between common AI and Generative AI
 ![image](https://github.com/khkwon01/LLM-AI/assets/8789421/381f559c-785f-4b54-9ce3-3021e44bffbd)     
 
-2. LLM = Transformer architecture + generate human language  (a type of text generative AI)
+2. NLP history
+- n-grams --> RNNs and LSTMs --> Transformers --> LLMs
+  - n-grams: predict the next word based on previous word. (limited context and understanding)
+  - RNNs and LSTMs: improved sequence learning (limited with processing large amounts of data)
+  - Transformers: Efficiently identified relationships between words, enabled training on large datasets.
+  - LLM: GPT(Generative pretrained transformer)
+
+4. LLM = Transformer architecture + generate human language  (a type of text generative AI)
 - Model size, Parameters, Tokens are very important
 - LLM application examples : text classification, question answering, text generation, document summarization
 ![image](https://github.com/khkwon01/LLM-AI/assets/8789421/3d1ea84a-8c2a-405f-855f-389d637107dd)
