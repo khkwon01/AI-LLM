@@ -24,3 +24,16 @@ The Generative AI make new content such as text, image, audio, etc based on pre-
     - decoder: make an output using embedding resulting from encoder. (chatgpt only use this)
   - Prompt Engineering: provide input data for a better understanding of LLM    
   - Fine tuning: apply the specific data like text-classification based on pre-training data    
+
+5. LLM Prediction Steps
+- Receive prompt
+  - ex> "Are you developing microservice-based applications?"
+- Break input into tokens
+  - ex> ["Are", "you", "developing", "microservice", "-", "based", "applications", "?"]
+- Process tokens with Transformer architecture
+  - Understand relationships between tokens and identify the all sentence meaning of this prompt
+- Repeat the below steps until completing sentence.
+  - Predict next token based on context
+    - ex> {"I":0.6, "we":0.2, "you":0.1}
+  - Select a word based on probability score
+    - ex> "I"
