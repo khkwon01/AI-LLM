@@ -14,3 +14,23 @@
 ### 3. GPT operation flow
 - Prompt(user input) --> Model --> Completion (output) (* based on tokens)
   
+### 4. GPT API Usage
+- Install the openapi library
+```
+pip install openai
+```
+- Set your api key
+```
+export OPENAI_API_KEY="sk-xxx"
+```
+- Use openai in Python
+```
+import openai
+```
+- Call the chat endpoint
+```
+respose = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[{"role": "user", "content": "you put data in here"}],
+)
+```
