@@ -29,10 +29,13 @@ import openai
 ```
 - Call the chat endpoint
 ```
-respose = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=[{"role": "user", "content": "you put data in here"}],
+client = OpenAI()
+respose = client.chat.completions.create(
+    model="gpt-3.5-turbo",
+    messages=msg
 )
+
+print(completion.choices[0].message.content)
 ```
 
 ### 5. Prompt Engineering
