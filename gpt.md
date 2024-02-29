@@ -39,6 +39,6 @@ respose = openai.ChatCompletion.create(
 There are 3 types propmt engineering in OPENAI or Generative AI.
 - one-shot learning
 - few-shot learning
-- fine-tuning
+- fine-tuning   
 ![image](https://github.com/khkwon01/AI-LLM/assets/8789421/84f7bc93-4d47-4c6d-8851-3702b602d087)
 
