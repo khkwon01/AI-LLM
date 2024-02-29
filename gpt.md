@@ -34,3 +34,7 @@ respose = openai.ChatCompletion.create(
         messages=[{"role": "user", "content": "you put data in here"}],
 )
 ```
+
+### 5. Prompt Engineering
+![image](https://github.com/khkwon01/AI-LLM/assets/8789421/84f7bc93-4d47-4c6d-8851-3702b602d087)
+
