@@ -41,8 +41,22 @@ print(completion.choices[0].message.content)
 ### 5. Prompt Engineering
 There are 3 types propmt engineering in OPENAI or Generative AI.
 - one-shot learning
+  - 관련 예제 없이 주어진 데이터를 예측하기 위해 prompt 입력 (추가적인 예제 데이터를 요구하지 않음)
+  - Use case : simple tasks 예측
+  - 가격 모델 : token당 비용 (input + output)
 - few-shot learning
+  - input 예제와 요구되는 output 데이터를 포함하여 prompt 입력 (추가적인 예제가 필요함)
+  - Use case : 특별한 output를 가진 복잡한 tasks 예측
+  - 가격 모델 : token당 비용 (input + output), long prompt가 발생 가능
   - https://github.com/f/awesome-chatgpt-prompts
-- fine-tuning   
+- Prompt engineering tricks
+  - context, role, tasks, trick(단계적 응답 요청)를 포함하여 detailed한 prompt 입력
+  - Use case : Creative, complex tasks
+  - 가격 모델 : token당 비용 (input + output), long prompt가 발생 가능
+- fine-tuning
+  - 특정 도메인 또는 데이터셋 기반으로 training 된 모델에 prompt 입력
+  - Use case : Highly complex tasks
+  - 가격 모델 : 기존 모델과 비교해 보면 fine-tuned 모델은 token당 몇십배 더 비쌈
+
 ![image](https://github.com/khkwon01/AI-LLM/assets/8789421/84f7bc93-4d47-4c6d-8851-3702b602d087)
 
